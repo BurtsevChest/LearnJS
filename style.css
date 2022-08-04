@@ -1,0 +1,46 @@
+video{
+   width: 100%;
+   height: 100%;
+}
+.wrapper {
+   width: 100%;
+   height: 50vh;
+
+}
+.videos{
+   width: 320px;
+   height: 180px;
+}
+.flex{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+.red{
+   width: 100%;
+   height: 500px;
+   background-color: red;
+   margin-top: 50px;
+}
+.playvideo,.stopBtn{
+   color: white;
+   font-weight: 700;
+   border: none;
+   padding: 10px 15px;
+   cursor: pointer;
+}
+.playvideo {
+   background-color: rgb(31, 224, 31);
+}
+.stopBtn {
+   background-color: rgb(233, 38, 38);
+}
+.block {
+   width: 100%;
+   height: 50vh;
+}
+.section {
+   width: 100%;
+   height: 50vh;
+}
